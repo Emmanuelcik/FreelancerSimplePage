@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñadro Freelancer</title>
+    <link rel="preload" href="styleshit/normalize.css" as="style">
+    <link rel="stylesheet" href="styleshit/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="styleshit/styles.css" as="style">
+    <link href="styleshit/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Emmanuel López <span>Freelancer</span></h1>
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+    
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2 >Diseño y desarrollo Web <span>Freelancer</span></h2>
+            <div class="ubicacion">
+                <img src="https://img.icons8.com/fluent/96/000000/google-maps-new.png"/>
+                <p>Nicolas Romero, México</p>
+            </div>
+            <a class="boton" href="#contactame"> Contactar </a>
+        </div>
+    </section> 
+    
+    <main class="contenedor sombra">
+        <h2>Mis servicios</h2>
+
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <img src="https://img.icons8.com/nolan/40/paint-palette.png"/>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consectetur iste id quasi cumque sed laboriosam dolorem quam. 
+                Voluptatum, tempore! Nisi.</p>
+            
+            </section>
+        
+            <section class="servicio">
+                <h3>Aplicaciones Web</h3>
+                <div class="iconos">
+                    <img src="https://img.icons8.com/cute-clipart/40/000000/android.png"/>
+                    <img src="https://img.icons8.com/dusk/40/000000/iphone.png"/>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consectetur iste id quasi cumque sed laboriosam dolorem quam. 
+                Voluptatum, tempore! Nisi.</p>
+            </section>
+
+            <section class="servicio">
+                <h3>E Comerce</h3>
+                <div class="iconos">
+                    <img src="https://img.icons8.com/cotton/40/000000/mastercard-credit-card.png"/>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consectetur iste id quasi cumque sed laboriosam dolorem quam. 
+                Voluptatum, tempore! Nisi.</p>
+            </section>
+        </div>   <!--Cierre de la clase de servicios-->
+    
+
+        <section id="contactame">
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactame llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-txt" type="text" placeholder="Tu nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input class="input-txt" type="text" placeholder="Tu Telefono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-txt" type="text" placeholder="Tu Correo">
+                        </div>
+
+                        <div class="campo">
+                            <label >Mensaje</label>
+                            <textarea class="input-txt"></textarea>
+                        </div>
+                    </div> <!--Contenedor de los campos-->
+                    
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>Todos los derechos reservados Emmanuel López</p>
+    </footer>
+</body>
+</html>
